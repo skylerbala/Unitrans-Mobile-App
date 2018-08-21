@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F212241212CB0850042CCBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F212240212CB0850042CCBC /* AppDelegate.swift */; };
+		9F212243212CB0850042CCBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F212242212CB0850042CCBC /* ViewController.swift */; };
+		9F212246212CB0850042CCBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F212244212CB0850042CCBC /* Main.storyboard */; };
+		9F212249212CB0850042CCBC /* Unitrans.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F212247212CB0850042CCBC /* Unitrans.xcdatamodeld */; };
+		9F21224B212CB0850042CCBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F21224A212CB0850042CCBC /* Assets.xcassets */; };
+		9F21224E212CB0850042CCBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F21224C212CB0850042CCBC /* LaunchScreen.storyboard */; };
+		9F212259212CB0850042CCBC /* UnitransTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F212258212CB0850042CCBC /* UnitransTests.swift */; };
+		9F212264212CB0850042CCBC /* UnitransUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F212263212CB0850042CCBC /* UnitransUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F212255212CB0850042CCBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F212235212CB0850042CCBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F21223C212CB0850042CCBC;
+			remoteInfo = Unitrans;
+		};
+		9F212260212CB0850042CCBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F212235212CB0850042CCBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F21223C212CB0850042CCBC;
+			remoteInfo = Unitrans;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F21223D212CB0850042CCBC /* Unitrans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unitrans.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F212240212CB0850042CCBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F212242212CB0850042CCBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F212245212CB0850042CCBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F212248212CB0850042CCBC /* Unitrans.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Unitrans.xcdatamodel; sourceTree = "<group>"; };
+		9F21224A212CB0850042CCBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F21224D212CB0850042CCBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F21224F212CB0850042CCBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F212254212CB0850042CCBC /* UnitransTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitransTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F212258212CB0850042CCBC /* UnitransTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitransTests.swift; sourceTree = "<group>"; };
+		9F21225A212CB0850042CCBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F21225F212CB0850042CCBC /* UnitransUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitransUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F212263212CB0850042CCBC /* UnitransUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitransUITests.swift; sourceTree = "<group>"; };
+		9F212265212CB0850042CCBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F21223A212CB0850042CCBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F212251212CB0850042CCBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F21225C212CB0850042CCBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F212234212CB0850042CCBC = {
+			isa = PBXGroup;
+			children = (
+				9F21223F212CB0850042CCBC /* Unitrans */,
+				9F212257212CB0850042CCBC /* UnitransTests */,
+				9F212262212CB0850042CCBC /* UnitransUITests */,
+				9F21223E212CB0850042CCBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F21223E212CB0850042CCBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F21223D212CB0850042CCBC /* Unitrans.app */,
+				9F212254212CB0850042CCBC /* UnitransTests.xctest */,
+				9F21225F212CB0850042CCBC /* UnitransUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F21223F212CB0850042CCBC /* Unitrans */ = {
+			isa = PBXGroup;
+			children = (
+				9F212240212CB0850042CCBC /* AppDelegate.swift */,
+				9F212242212CB0850042CCBC /* ViewController.swift */,
+				9F212244212CB0850042CCBC /* Main.storyboard */,
+				9F21224A212CB0850042CCBC /* Assets.xcassets */,
+				9F21224C212CB0850042CCBC /* LaunchScreen.storyboard */,
+				9F21224F212CB0850042CCBC /* Info.plist */,
+				9F212247212CB0850042CCBC /* Unitrans.xcdatamodeld */,
+			);
+			path = Unitrans;
+			sourceTree = "<group>";
+		};
+		9F212257212CB0850042CCBC /* UnitransTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F212258212CB0850042CCBC /* UnitransTests.swift */,
+				9F21225A212CB0850042CCBC /* Info.plist */,
+			);
+			path = UnitransTests;
+			sourceTree = "<group>";
+		};
+		9F212262212CB0850042CCBC /* UnitransUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F212263212CB0850042CCBC /* UnitransUITests.swift */,
+				9F212265212CB0850042CCBC /* Info.plist */,
+			);
+			path = UnitransUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F21223C212CB0850042CCBC /* Unitrans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F212268212CB0850042CCBC /* Build configuration list for PBXNativeTarget "Unitrans" */;
+			buildPhases = (
+				9F212239212CB0850042CCBC /* Sources */,
+				9F21223A212CB0850042CCBC /* Frameworks */,
+				9F21223B212CB0850042CCBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Unitrans;
+			productName = Unitrans;
+			productReference = 9F21223D212CB0850042CCBC /* Unitrans.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F212253212CB0850042CCBC /* UnitransTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F21226B212CB0850042CCBC /* Build configuration list for PBXNativeTarget "UnitransTests" */;
+			buildPhases = (
+				9F212250212CB0850042CCBC /* Sources */,
+				9F212251212CB0850042CCBC /* Frameworks */,
+				9F212252212CB0850042CCBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F212256212CB0850042CCBC /* PBXTargetDependency */,
+			);
+			name = UnitransTests;
+			productName = UnitransTests;
+			productReference = 9F212254212CB0850042CCBC /* UnitransTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F21225E212CB0850042CCBC /* UnitransUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F21226E212CB0850042CCBC /* Build configuration list for PBXNativeTarget "UnitransUITests" */;
+			buildPhases = (
+				9F21225B212CB0850042CCBC /* Sources */,
+				9F21225C212CB0850042CCBC /* Frameworks */,
+				9F21225D212CB0850042CCBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F212261212CB0850042CCBC /* PBXTargetDependency */,
+			);
+			name = UnitransUITests;
+			productName = UnitransUITests;
+			productReference = 9F21225F212CB0850042CCBC /* UnitransUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F212235212CB0850042CCBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = SkylerBala;
+				TargetAttributes = {
+					9F21223C212CB0850042CCBC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9F212253212CB0850042CCBC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F21223C212CB0850042CCBC;
+					};
+					9F21225E212CB0850042CCBC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F21223C212CB0850042CCBC;
+					};
+				};
+			};
+			buildConfigurationList = 9F212238212CB0850042CCBC /* Build configuration list for PBXProject "Unitrans" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F212234212CB0850042CCBC;
+			productRefGroup = 9F21223E212CB0850042CCBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F21223C212CB0850042CCBC /* Unitrans */,
+				9F212253212CB0850042CCBC /* UnitransTests */,
+				9F21225E212CB0850042CCBC /* UnitransUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F21223B212CB0850042CCBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F21224E212CB0850042CCBC /* LaunchScreen.storyboard in Resources */,
+				9F21224B212CB0850042CCBC /* Assets.xcassets in Resources */,
+				9F212246212CB0850042CCBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F212252212CB0850042CCBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F21225D212CB0850042CCBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F212239212CB0850042CCBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F212249212CB0850042CCBC /* Unitrans.xcdatamodeld in Sources */,
+				9F212243212CB0850042CCBC /* ViewController.swift in Sources */,
+				9F212241212CB0850042CCBC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F212250212CB0850042CCBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F212259212CB0850042CCBC /* UnitransTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F21225B212CB0850042CCBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F212264212CB0850042CCBC /* UnitransUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F212256212CB0850042CCBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F21223C212CB0850042CCBC /* Unitrans */;
+			targetProxy = 9F212255212CB0850042CCBC /* PBXContainerItemProxy */;
+		};
+		9F212261212CB0850042CCBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F21223C212CB0850042CCBC /* Unitrans */;
+			targetProxy = 9F212260212CB0850042CCBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F212244212CB0850042CCBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F212245212CB0850042CCBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F21224C212CB0850042CCBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F21224D212CB0850042CCBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F212266212CB0850042CCBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F212267212CB0850042CCBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F212269212CB0850042CCBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BX4CBW4TS6;
+				INFOPLIST_FILE = Unitrans/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkylerBala.Unitrans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F21226A212CB0850042CCBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BX4CBW4TS6;
+				INFOPLIST_FILE = Unitrans/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkylerBala.Unitrans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F21226C212CB0850042CCBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BX4CBW4TS6;
+				INFOPLIST_FILE = UnitransTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkylerBala.UnitransTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unitrans.app/Unitrans";
+			};
+			name = Debug;
+		};
+		9F21226D212CB0850042CCBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BX4CBW4TS6;
+				INFOPLIST_FILE = UnitransTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkylerBala.UnitransTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unitrans.app/Unitrans";
+			};
+			name = Release;
+		};
+		9F21226F212CB0850042CCBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BX4CBW4TS6;
+				INFOPLIST_FILE = UnitransUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkylerBala.UnitransUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Unitrans;
+			};
+			name = Debug;
+		};
+		9F212270212CB0850042CCBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BX4CBW4TS6;
+				INFOPLIST_FILE = UnitransUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SkylerBala.UnitransUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Unitrans;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F212238212CB0850042CCBC /* Build configuration list for PBXProject "Unitrans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F212266212CB0850042CCBC /* Debug */,
+				9F212267212CB0850042CCBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F212268212CB0850042CCBC /* Build configuration list for PBXNativeTarget "Unitrans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F212269212CB0850042CCBC /* Debug */,
+				9F21226A212CB0850042CCBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F21226B212CB0850042CCBC /* Build configuration list for PBXNativeTarget "UnitransTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F21226C212CB0850042CCBC /* Debug */,
+				9F21226D212CB0850042CCBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F21226E212CB0850042CCBC /* Build configuration list for PBXNativeTarget "UnitransUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F21226F212CB0850042CCBC /* Debug */,
+				9F212270212CB0850042CCBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F212247212CB0850042CCBC /* Unitrans.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F212248212CB0850042CCBC /* Unitrans.xcdatamodel */,
+			);
+			currentVersion = 9F212248212CB0850042CCBC /* Unitrans.xcdatamodel */;
+			path = Unitrans.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F212235212CB0850042CCBC /* Project object */;
+}
