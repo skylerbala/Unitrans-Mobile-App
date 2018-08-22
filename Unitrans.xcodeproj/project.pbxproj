@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D43D0A32C7CDC35C84093E1 /* Pods_UnitransUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5580D6280E01482058FBF95 /* Pods_UnitransUITests.framework */; };
 		9F212241212CB0850042CCBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F212240212CB0850042CCBC /* AppDelegate.swift */; };
 		9F212243212CB0850042CCBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F212242212CB0850042CCBC /* ViewController.swift */; };
 		9F212246212CB0850042CCBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F212244212CB0850042CCBC /* Main.storyboard */; };
@@ -15,6 +16,13 @@
 		9F21224E212CB0850042CCBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F21224C212CB0850042CCBC /* LaunchScreen.storyboard */; };
 		9F212259212CB0850042CCBC /* UnitransTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F212258212CB0850042CCBC /* UnitransTests.swift */; };
 		9F212264212CB0850042CCBC /* UnitransUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F212263212CB0850042CCBC /* UnitransUITests.swift */; };
+		9F212272212CB63D0042CCBC /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F212271212CB63D0042CCBC /* Utilities.swift */; };
+		9F212274212CB7CF0042CCBC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F212273212CB7CF0042CCBC /* MapKit.framework */; };
+		9F212276212CB8370042CCBC /* Stops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F212275212CB8370042CCBC /* Stops.swift */; };
+		9F212278212CC0A90042CCBC /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F212277212CC0A90042CCBC /* APIService.swift */; };
+		9F212284212CCF130042CCBC /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F212283212CCF130042CCBC /* CoreDataStack.swift */; };
+		DE00CB0CB1412395BF3C24CE /* Pods_Unitrans.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A89FB5DE455F8632CBB89539 /* Pods_Unitrans.framework */; };
+		F3EFD8891E355E4F28F8D4D7 /* Pods_UnitransTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A37DFA8AA1951944FAA571ED /* Pods_UnitransTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D4EB1C5988D4417EA89350C /* Pods-Unitrans.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unitrans.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Unitrans/Pods-Unitrans.debug.xcconfig"; sourceTree = "<group>"; };
+		2894A9681FF6155BE6F4CBBF /* Pods-Unitrans.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unitrans.release.xcconfig"; path = "Pods/Target Support Files/Pods-Unitrans/Pods-Unitrans.release.xcconfig"; sourceTree = "<group>"; };
+		5400D8D6370CABD51170DA8B /* Pods-UnitransUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitransUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnitransUITests/Pods-UnitransUITests.release.xcconfig"; sourceTree = "<group>"; };
+		64C114DB12FC3085C3181D1D /* Pods-UnitransTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitransTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnitransTests/Pods-UnitransTests.release.xcconfig"; sourceTree = "<group>"; };
 		9F21223D212CB0850042CCBC /* Unitrans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unitrans.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F212240212CB0850042CCBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F212242212CB0850042CCBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +61,16 @@
 		9F21225F212CB0850042CCBC /* UnitransUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitransUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F212263212CB0850042CCBC /* UnitransUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitransUITests.swift; sourceTree = "<group>"; };
 		9F212265212CB0850042CCBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F212271212CB63D0042CCBC /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		9F212273212CB7CF0042CCBC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9F212275212CB8370042CCBC /* Stops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stops.swift; sourceTree = "<group>"; };
+		9F212277212CC0A90042CCBC /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		9F212283212CCF130042CCBC /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		A37DFA8AA1951944FAA571ED /* Pods_UnitransTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitransTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89FB5DE455F8632CBB89539 /* Pods_Unitrans.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unitrans.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC18080EAED26E98C435097 /* Pods-UnitransTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitransTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnitransTests/Pods-UnitransTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5580D6280E01482058FBF95 /* Pods_UnitransUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitransUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69A6F22FF5B5FF76048B5BB /* Pods-UnitransUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitransUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnitransUITests/Pods-UnitransUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F212274212CB7CF0042CCBC /* MapKit.framework in Frameworks */,
+				DE00CB0CB1412395BF3C24CE /* Pods_Unitrans.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3EFD8891E355E4F28F8D4D7 /* Pods_UnitransTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D43D0A32C7CDC35C84093E1 /* Pods_UnitransUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +109,8 @@
 				9F212257212CB0850042CCBC /* UnitransTests */,
 				9F212262212CB0850042CCBC /* UnitransUITests */,
 				9F21223E212CB0850042CCBC /* Products */,
+				EB792D423706AEA6E46C59D5 /* Pods */,
+				CBED51AF29B379C9AA0188D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +127,12 @@
 		9F21223F212CB0850042CCBC /* Unitrans */ = {
 			isa = PBXGroup;
 			children = (
+				9F21227A212CCE000042CCBC /* Model */,
 				9F212240212CB0850042CCBC /* AppDelegate.swift */,
+				9F212271212CB63D0042CCBC /* Utilities.swift */,
 				9F212242212CB0850042CCBC /* ViewController.swift */,
+				9F212275212CB8370042CCBC /* Stops.swift */,
+				9F212277212CC0A90042CCBC /* APIService.swift */,
 				9F212244212CB0850042CCBC /* Main.storyboard */,
 				9F21224A212CB0850042CCBC /* Assets.xcassets */,
 				9F21224C212CB0850042CCBC /* LaunchScreen.storyboard */,
@@ -128,6 +160,38 @@
 			path = UnitransUITests;
 			sourceTree = "<group>";
 		};
+		9F21227A212CCE000042CCBC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F212283212CCF130042CCBC /* CoreDataStack.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CBED51AF29B379C9AA0188D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F212273212CB7CF0042CCBC /* MapKit.framework */,
+				A89FB5DE455F8632CBB89539 /* Pods_Unitrans.framework */,
+				A37DFA8AA1951944FAA571ED /* Pods_UnitransTests.framework */,
+				F5580D6280E01482058FBF95 /* Pods_UnitransUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB792D423706AEA6E46C59D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D4EB1C5988D4417EA89350C /* Pods-Unitrans.debug.xcconfig */,
+				2894A9681FF6155BE6F4CBBF /* Pods-Unitrans.release.xcconfig */,
+				BDC18080EAED26E98C435097 /* Pods-UnitransTests.debug.xcconfig */,
+				64C114DB12FC3085C3181D1D /* Pods-UnitransTests.release.xcconfig */,
+				F69A6F22FF5B5FF76048B5BB /* Pods-UnitransUITests.debug.xcconfig */,
+				5400D8D6370CABD51170DA8B /* Pods-UnitransUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F212268212CB0850042CCBC /* Build configuration list for PBXNativeTarget "Unitrans" */;
 			buildPhases = (
+				3D0CA6F5402677FD73C09BEE /* [CP] Check Pods Manifest.lock */,
 				9F212239212CB0850042CCBC /* Sources */,
 				9F21223A212CB0850042CCBC /* Frameworks */,
 				9F21223B212CB0850042CCBC /* Resources */,
+				1F0A4CCC43F73080ADCF63A4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F21226B212CB0850042CCBC /* Build configuration list for PBXNativeTarget "UnitransTests" */;
 			buildPhases = (
+				DC51110C75FC35228ABA4D4E /* [CP] Check Pods Manifest.lock */,
 				9F212250212CB0850042CCBC /* Sources */,
 				9F212251212CB0850042CCBC /* Frameworks */,
 				9F212252212CB0850042CCBC /* Resources */,
@@ -170,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F21226E212CB0850042CCBC /* Build configuration list for PBXNativeTarget "UnitransUITests" */;
 			buildPhases = (
+				0C7F878BE68E6D02B79B4AEF /* [CP] Check Pods Manifest.lock */,
 				9F21225B212CB0850042CCBC /* Sources */,
 				9F21225C212CB0850042CCBC /* Frameworks */,
 				9F21225D212CB0850042CCBC /* Resources */,
@@ -197,6 +265,11 @@
 					9F21223C212CB0850042CCBC = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					9F212253212CB0850042CCBC = {
 						CreatedOnToolsVersion = 9.2;
@@ -257,6 +330,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C7F878BE68E6D02B79B4AEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnitransUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F0A4CCC43F73080ADCF63A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Unitrans/Pods-Unitrans-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Unitrans/Pods-Unitrans-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D0CA6F5402677FD73C09BEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Unitrans-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC51110C75FC35228ABA4D4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnitransTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9F212239212CB0850042CCBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,7 +414,11 @@
 			files = (
 				9F212249212CB0850042CCBC /* Unitrans.xcdatamodeld in Sources */,
 				9F212243212CB0850042CCBC /* ViewController.swift in Sources */,
+				9F212284212CCF130042CCBC /* CoreDataStack.swift in Sources */,
+				9F212272212CB63D0042CCBC /* Utilities.swift in Sources */,
 				9F212241212CB0850042CCBC /* AppDelegate.swift in Sources */,
+				9F212278212CC0A90042CCBC /* APIService.swift in Sources */,
+				9F212276212CB8370042CCBC /* Stops.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +582,7 @@
 		};
 		9F212269212CB0850042CCBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D4EB1C5988D4417EA89350C /* Pods-Unitrans.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +598,7 @@
 		};
 		9F21226A212CB0850042CCBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2894A9681FF6155BE6F4CBBF /* Pods-Unitrans.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +614,7 @@
 		};
 		9F21226C212CB0850042CCBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDC18080EAED26E98C435097 /* Pods-UnitransTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +632,7 @@
 		};
 		9F21226D212CB0850042CCBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64C114DB12FC3085C3181D1D /* Pods-UnitransTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +650,7 @@
 		};
 		9F21226F212CB0850042CCBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F69A6F22FF5B5FF76048B5BB /* Pods-UnitransUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +667,7 @@
 		};
 		9F212270212CB0850042CCBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5400D8D6370CABD51170DA8B /* Pods-UnitransUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
