@@ -18,8 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         window = UIWindow(frame: UIScreen.main.bounds)
-        let mainVC = ViewController()
-        window?.rootViewController = UINavigationController(rootViewController: mainVC)
+        let tabBarVC = TabBarVC()
+        window?.rootViewController = UINavigationController(rootViewController: tabBarVC)
         window?.makeKeyAndVisible()
         
         CoreDataStack.sharedInstance.applicationDocumentsDirectory()

@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import MapKit
 
 extension UIViewController {
     
@@ -18,5 +19,20 @@ extension UIViewController {
     var topbarHeight: CGFloat {
         return UIApplication.shared.statusBarFrame.size.height +
             (self.navigationController?.navigationBar.frame.height ?? 0.0)
+    }
+}
+
+
+class MyMKOverlay: NSObject, MKOverlay {
+    var coordinate: CLLocationCoordinate2D
+    
+    var boundingMapRect: MKMapRect
+    
+    var color: UIColor!
+    
+    init(coordinate: CLLocationCoordinate2D, boundingMapRect: MKMapRect, color: UIColor) {
+        self.coordinate = coordinate
+        self.boundingMapRect = boundingMapRect
+        self.color = color
     }
 }

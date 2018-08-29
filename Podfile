@@ -8,6 +8,8 @@ target 'Unitrans' do
   # Pods for Unitrans
   pod 'Alamofire', '~> 4.7'
   pod 'SwiftyJSON', '~> 4.0'
+  pod 'UIColor_Hex_Swift', '~> 4.0.2'
+  pod 'RealmSwift'
 
   target 'UnitransTests' do
     inherit! :search_paths

@@ -3,6 +3,15 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "TabBarVC.updateChildVCData():TabBarVC.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in TabBarVC.apiService():TabBarVC.swift">
+      </ContextState>
+      <ContextState
+         contextName = "LinesVC.viewDidLoad():LinesVC.swift">
+      </ContextState>
+      <ContextState
          contextName = "closure #1 in APIService.getDataWith(completion:):APIService.swift">
          <PersistentStrings>
             <PersistentString
@@ -12,6 +21,25 @@
                value = "on">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in TabBarVC.apiService():TabBarVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(&quot;#&quot; + line[&quot;color&quot;].string!)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TabBarVC.updateLines():TabBarVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tabBarController?.viewControllers![0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LinesVC.loadView():LinesVC.swift">
       </ContextState>
    </ContextStates>
 </VariablesViewState>

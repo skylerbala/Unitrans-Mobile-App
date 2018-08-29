@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="16G1510" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Line" representedClassName="Line" syncable="YES" codeGenerationType="class">
-        <attribute name="attribute" optional="YES" syncable="YES"/>
-        <attribute name="color" optional="YES" syncable="YES"/>
-        <attribute name="title" optional="YES" syncable="YES"/>
+    <entity name="Line" representedClassName=".Line" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="Transformable" customClassName="UIColor" syncable="YES"/>
+        <attribute name="isDisplayed" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="lineTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="oppositeColor" optional="YES" attributeType="Transformable" customClassName="UIColor" syncable="YES"/>
+        <relationship name="stops" toMany="YES" deletionRule="Cascade" destinationEntity="Stop" inverseName="line" inverseEntity="Stop" syncable="YES"/>
+    </entity>
+    <entity name="Stop" representedClassName="Stop" syncable="YES">
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="lon" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="subTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="line" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Line" inverseName="stops" inverseEntity="Line" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Line" positionX="-36" positionY="9" width="128" height="90"/>
+        <element name="Line" positionX="-27" positionY="18" width="128" height="118"/>
+        <element name="Stop" positionX="241" positionY="-10" width="128" height="118"/>
     </elements>
 </model>
